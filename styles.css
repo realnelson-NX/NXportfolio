@@ -170,11 +170,15 @@ p {
 }
 
 h1 {
-  max-width: 10ch;
+  max-width: 12ch;
   margin-bottom: 24px;
   font-size: clamp(56px, 8vw, 112px);
   line-height: 0.95;
   letter-spacing: 0;
+}
+
+h1 span {
+  white-space: nowrap;
 }
 
 h2 {
@@ -1267,6 +1271,11 @@ h3 {
 
   .hero-frame-large {
     min-height: 340px;
+  }
+
+  h1 {
+    max-width: none;
+    font-size: clamp(54px, 16vw, 72px);
   }
 
   .intro-band,
