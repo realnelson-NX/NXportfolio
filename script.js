@@ -498,6 +498,12 @@ function loadDialogVideo(videoItem) {
   dialogDesc.textContent = videoItem.desc;
 }
 
+function focusDialogVideo() {
+  dialog.scrollTo({ top: 0, behavior: "smooth" });
+  dialogVideoWrap.scrollIntoView({ behavior: "smooth", block: "start" });
+  dialogVideo.play().catch(() => {});
+}
+
 filterButtons.forEach((button) => {
   button.addEventListener("click", () => {
     const filter = button.dataset.filter;
@@ -612,6 +618,7 @@ cards.forEach((card) => {
         button.addEventListener("click", () => {
           dialog.classList.add("has-video");
           loadDialogVideo(item);
+          focusDialogVideo();
           dialogGallery.querySelectorAll(".gallery-thumb").forEach((thumb, thumbIndex) => {
             thumb.classList.toggle("is-active", thumbIndex === videoIndex);
           });
