@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>个人摄影作品集</title>
+    <title>王楠溪个人作品集</title>
     <meta
       name="description"
       content="个人摄影与视频作品集，展示腕表、珠宝、人像、产品视频和 AI 视频作品。"
@@ -26,23 +26,24 @@
     <main id="top">
       <section class="hero">
         <div class="hero-media" aria-label="精选作品预览">
-          <div class="hero-frame hero-frame-large visual-watch">
+          <div class="hero-frame hero-frame-large hero-watch-photo">
             <span>WATCH</span>
           </div>
           <div class="hero-stack">
-            <div class="hero-frame visual-jewelry">
+            <div class="hero-frame hero-jewelry-photo">
               <span>JEWELRY</span>
             </div>
-            <div class="hero-frame visual-portrait">
-              <span>PORTRAIT</span>
+            <div class="hero-frame hero-ai-video-photo">
+              <span>AI VIDEO</span>
             </div>
           </div>
         </div>
         <div class="hero-copy">
           <p class="eyebrow">Photography / Product Video / AI Video</p>
-          <h1>个人摄影作品集</h1>
+          <h1>王楠溪<br />个人作品展示</h1>
           <p>
-            专注腕表、珠宝与人像影像创作，也包含产品视频和 AI 视频实验。这里用于集中呈现代表作品、项目方向与合作联系方式。
+            商业摄影师 × AI视觉创作者<br />
+            用真实光影 + AI构建新的视觉叙事
           </p>
           <div class="hero-actions">
             <a class="button primary" href="#work">查看作品</a>
@@ -53,16 +54,19 @@
 
       <section class="section intro-band" aria-label="作品方向">
         <div>
-          <span class="stat-number">03</span>
-          <span class="stat-label">作品分类</span>
+          <span class="stat-number">20+ YEARS</span>
+          <span class="stat-label">商业视觉创作经验</span>
+          <span class="stat-desc">长期服务珠宝、钻石、腕表与品牌营销项目</span>
         </div>
         <div>
-          <span class="stat-number">08</span>
-          <span class="stat-label">展示分组</span>
+          <span class="stat-number">PHOTO × AI VIDEO</span>
+          <span class="stat-label">真实摄影与 AI 影像融合</span>
+          <span class="stat-desc">从创意构思、关键画面到动态成片交付</span>
         </div>
         <div>
-          <span class="stat-number">∞</span>
-          <span class="stat-label">可持续扩展</span>
+          <span class="stat-number">FULL PIPELINE</span>
+          <span class="stat-label">完整内容生产能力</span>
+          <span class="stat-desc">创意策划 / 分镜设计 / 拍摄执行 / AI生成 / 后期交付</span>
         </div>
       </section>
 
@@ -75,92 +79,188 @@
           <div class="filter-bar" aria-label="作品筛选">
             <button class="filter-button active" data-filter="all" type="button">全部</button>
             <button class="filter-button" data-filter="photo" type="button">平面摄影</button>
-            <button class="filter-button" data-filter="video" type="button">视频</button>
-            <button class="filter-button" data-filter="ai" type="button">AI 视频</button>
+            <button class="filter-button" data-filter="video" type="button">视频拍摄</button>
+            <button class="filter-button" data-filter="ai" type="button">AI视频</button>
           </div>
         </div>
 
-        <div class="work-grid">
-          <article class="work-card" data-category="photo">
-            <button class="work-open" type="button" aria-label="查看腕表产品拍摄">
-              <span class="work-visual visual-watch"></span>
-              <span class="work-meta">
-                <span class="work-type">平面摄影</span>
-                <span class="work-title">腕表产品拍摄</span>
-                <span class="work-desc">精密机械、材质反光、商业静物布光</span>
-              </span>
-            </button>
-          </article>
+        <div class="work-sections">
+          <section class="work-category-block" data-category="photo" aria-labelledby="photo-heading">
+            <div class="work-category-heading">
+              <h3 id="photo-heading">平面摄影</h3>
+              <p>腕表、珠宝与人像平面作品。</p>
+            </div>
+            <div class="work-grid">
+              <article class="work-card wide" data-category="photo">
+                <button class="work-open" type="button" aria-label="查看平面摄影作品集">
+                  <span class="work-visual visual-photo-collection" data-gallery="photoCollection"></span>
+                  <span class="work-meta">
+                    <span class="work-type">平面摄影</span>
+                    <span class="work-title">平面摄影作品集</span>
+                    <span class="work-desc">点击查看腕表产品拍摄与珠宝产品拍摄缩略图</span>
+                  </span>
+                </button>
+              </article>
+            </div>
+          </section>
 
-          <article class="work-card" data-category="photo">
-            <button class="work-open" type="button" aria-label="查看珠宝产品拍摄">
-              <span class="work-visual visual-jewelry"></span>
-              <span class="work-meta">
-                <span class="work-type">平面摄影</span>
-                <span class="work-title">珠宝产品拍摄</span>
-                <span class="work-desc">宝石光泽、金属质感、细节构图</span>
-              </span>
-            </button>
-          </article>
+          <section class="work-category-block" data-category="video" aria-labelledby="video-heading">
+            <div class="work-category-heading">
+              <h3 id="video-heading">视频拍摄</h3>
+              <p>产品视频、商业短片与社交媒体内容。</p>
+            </div>
+            <div class="work-grid">
+              <article class="work-card wide" data-category="video">
+                <button class="work-open" type="button" aria-label="查看视频拍摄作品集">
+                  <span class="work-visual visual-video-collection" data-video-gallery="videoCollection"></span>
+                  <span class="play-indicator">▶</span>
+                  <span class="work-meta">
+                    <span class="work-type">视频拍摄</span>
+                    <span class="work-title">视频拍摄作品集</span>
+                    <span class="work-desc">点击查看腕表视频、珠宝视频与 TVC广告作品</span>
+                  </span>
+                </button>
+              </article>
+            </div>
+          </section>
 
-          <article class="work-card" data-category="photo">
-            <button class="work-open" type="button" aria-label="查看人像类作品">
-              <span class="work-visual visual-portrait"></span>
-              <span class="work-meta">
-                <span class="work-type">平面摄影</span>
-                <span class="work-title">人像类</span>
-                <span class="work-desc">人物情绪、造型表达、自然与棚拍场景</span>
-              </span>
-            </button>
-          </article>
+          <section class="work-category-block" data-category="ai" aria-labelledby="ai-heading">
+            <div class="work-category-heading">
+              <h3 id="ai-heading">AI视频</h3>
+              <p>AI 视觉生成、动态镜头与完整项目工作流。</p>
+            </div>
+            <details class="ai-video-panel">
+              <summary class="ai-collection-summary">
+                <span class="work-visual visual-ai-video-collection"></span>
+                <span class="work-meta">
+                  <span class="work-type">AI视频</span>
+                  <span class="work-title">AI视频作品集</span>
+                  <span class="work-desc">点击展开全部 AI 视频作品</span>
+                </span>
+              </summary>
+              <div class="work-grid ai-video-grid">
+                <article class="work-card wide" data-category="ai">
+                  <button class="work-open" type="button" aria-label="查看 AI 视频作品">
+                    <span class="work-visual visual-ai-video" data-video="peraAgentX"></span>
+                    <span class="play-indicator">▶</span>
+                    <span class="work-meta">
+                      <span class="work-type">AI视频</span>
+                      <span class="work-title">PERA AgentX 宣传片</span>
+                      <span class="work-desc">安世亚太工业软件宣传项目，AI视觉生成与剪辑交付工作流</span>
+                    </span>
+                  </button>
+                </article>
 
-          <article class="work-card" data-category="video">
-            <button class="work-open" type="button" aria-label="查看腕表产品视频">
-              <span class="work-visual visual-watch-video"></span>
-              <span class="play-indicator">▶</span>
-              <span class="work-meta">
-                <span class="work-type">视频</span>
-                <span class="work-title">腕表产品视频</span>
-                <span class="work-desc">微距运动、机械细节、节奏化剪辑</span>
-              </span>
-            </button>
-          </article>
+                <article class="work-card" data-category="ai">
+                  <button class="work-open" type="button" aria-label="查看保持人类 AI 视频">
+                    <span class="work-visual visual-ai-human" data-video="keepHuman"></span>
+                    <span class="play-indicator">▶</span>
+                    <span class="work-meta">
+                      <span class="work-type">AI视频</span>
+                      <span class="work-title">保持人类</span>
+                      <span class="work-desc">个人作品，写给未来女儿的一封信，也是关于人类和 AI 如何相处的思考</span>
+                    </span>
+                  </button>
+                </article>
 
-          <article class="work-card" data-category="video">
-            <button class="work-open" type="button" aria-label="查看珠宝产品视频">
-              <span class="work-visual visual-jewelry-video"></span>
-              <span class="play-indicator">▶</span>
-              <span class="work-meta">
-                <span class="work-type">视频</span>
-                <span class="work-title">珠宝产品视频</span>
-                <span class="work-desc">光影流动、佩戴场景、短片化呈现</span>
-              </span>
-            </button>
-          </article>
+                <article class="work-card" data-category="ai">
+                  <button class="work-open" type="button" aria-label="查看这一次，说出口 AI 视频">
+                    <span class="work-visual visual-ai-03" data-video="aiVideo03"></span>
+                    <span class="play-indicator">▶</span>
+                    <span class="work-meta">
+                      <span class="work-type">AI视频</span>
+                      <span class="work-title">《这一次，说出口》</span>
+                      <span class="work-desc">AI视觉生成与动态影像作品</span>
+                    </span>
+                  </button>
+                </article>
 
-          <article class="work-card" data-category="video">
-            <button class="work-open" type="button" aria-label="查看其它类视频">
-              <span class="work-visual visual-other-video"></span>
-              <span class="play-indicator">▶</span>
-              <span class="work-meta">
-                <span class="work-type">视频</span>
-                <span class="work-title">其它类视频</span>
-                <span class="work-desc">商业短片、视觉实验、社交媒体内容</span>
-              </span>
-            </button>
-          </article>
+                <article class="work-card" data-category="ai">
+                  <button class="work-open" type="button" aria-label="查看力量钻石五一劳动节视频">
+                    <span class="work-visual visual-ai-04" data-video="aiVideo04"></span>
+                    <span class="play-indicator">▶</span>
+                    <span class="work-meta">
+                      <span class="work-type">AI视频</span>
+                      <span class="work-title">力量钻石五一劳动节视频</span>
+                      <span class="work-desc">AI视觉生成与动态影像作品</span>
+                    </span>
+                  </button>
+                </article>
 
-          <article class="work-card wide" data-category="ai">
-            <button class="work-open" type="button" aria-label="查看 AI 视频作品">
-              <span class="work-visual visual-ai-video"></span>
-              <span class="play-indicator">▶</span>
-              <span class="work-meta">
-                <span class="work-type">AI 视频</span>
-                <span class="work-title">AI 影像创作</span>
-                <span class="work-desc">使用 AI 工具完成概念生成、动态镜头、风格化短片制作</span>
-              </span>
-            </button>
-          </article>
+                <article class="work-card" data-category="ai">
+                  <button class="work-open" type="button" aria-label="查看元宵节视频">
+                    <span class="work-visual visual-ai-05" data-video="aiVideo05"></span>
+                    <span class="play-indicator">▶</span>
+                    <span class="work-meta">
+                      <span class="work-type">AI视频</span>
+                      <span class="work-title">元宵节视频</span>
+                      <span class="work-desc">AI视觉生成与动态影像作品</span>
+                    </span>
+                  </button>
+                </article>
+
+                <article class="work-card" data-category="ai">
+                  <button class="work-open" type="button" aria-label="查看圣诞节视频">
+                    <span class="work-visual visual-ai-06" data-video="aiVideo06"></span>
+                    <span class="play-indicator">▶</span>
+                    <span class="work-meta">
+                      <span class="work-type">AI视频</span>
+                      <span class="work-title">圣诞节视频</span>
+                      <span class="work-desc">AI视觉生成与动态影像作品</span>
+                    </span>
+                  </button>
+                </article>
+
+                <article class="work-card" data-category="ai">
+                  <button class="work-open" type="button" aria-label="查看母亲节视频">
+                    <span class="work-visual visual-ai-07" data-video="aiVideo07"></span>
+                    <span class="play-indicator">▶</span>
+                    <span class="work-meta">
+                      <span class="work-type">AI视频</span>
+                      <span class="work-title">母亲节视频</span>
+                      <span class="work-desc">AI视觉生成与动态影像作品</span>
+                    </span>
+                  </button>
+                </article>
+
+                <article class="work-card" data-category="ai">
+                  <button class="work-open" type="button" aria-label="查看力量钻石--2026年春节视频">
+                    <span class="work-visual visual-ai-08" data-video="aiVideo08"></span>
+                    <span class="play-indicator">▶</span>
+                    <span class="work-meta">
+                      <span class="work-type">AI视频</span>
+                      <span class="work-title">力量钻石--2026年春节视频</span>
+                      <span class="work-desc">AI视觉生成与动态影像作品</span>
+                    </span>
+                  </button>
+                </article>
+
+                <article class="work-card" data-category="ai">
+                  <button class="work-open" type="button" aria-label="查看力量钻石胸针展示视频">
+                    <span class="work-visual visual-ai-09" data-video="aiVideo09"></span>
+                    <span class="play-indicator">▶</span>
+                    <span class="work-meta">
+                      <span class="work-type">AI视频</span>
+                      <span class="work-title">力量钻石胸针展示视频</span>
+                      <span class="work-desc">AI视觉生成与动态影像作品</span>
+                    </span>
+                  </button>
+                </article>
+
+                <article class="work-card" data-category="ai">
+                  <button class="work-open" type="button" aria-label="查看2025年中秋节视频">
+                    <span class="work-visual visual-ai-10" data-video="aiVideo10"></span>
+                    <span class="play-indicator">▶</span>
+                    <span class="work-meta">
+                      <span class="work-type">AI视频</span>
+                      <span class="work-title">2025年中秋节视频</span>
+                      <span class="work-desc">AI视觉生成与动态影像作品</span>
+                    </span>
+                  </button>
+                </article>
+              </div>
+            </details>
+          </section>
         </div>
       </section>
 
@@ -168,19 +268,120 @@
         <div class="profile-copy">
           <p class="eyebrow">About</p>
           <h2>关于我</h2>
+          <p class="profile-role">摄影师 / AI视觉创意导演</p>
           <p>
-            我是一名影像创作者，主要拍摄腕表、珠宝等高质感商业产品，也进行人像创作、产品视频拍摄和 AI 视频制作。作品强调材质、光线、细节和品牌表达。
+            我是一名长期从事商业影像创作的摄影师与 AI 视觉创意导演，职业经历横跨广告摄影、品牌内容、产品视频与 AI 影像制作。
+          </p>
+          <p>
+            过去多年主要服务高端腕表、珠宝、钻石、3C与品牌营销项目，合作及服务经验涉及 IWC、爱彼、浪琴、伯爵、佳能等品牌，熟悉商业项目从需求沟通到最终交付的完整流程。
+          </p>
+          <p>
+            我的创作习惯建立在真实拍摄经验之上，重视光影、材质、结构与画面秩序，也关注影像是否能够准确服务品牌定位、产品价值和传播目标。
+          </p>
+          <p>
+            近年持续将 AI 工具融入日常创作，把摄影经验、视觉判断与生成式技术结合，用更高效的方式完成创意验证、视觉测试、动态影像生成与内容交付。
+          </p>
+          <p>
+            我既可以独立完成小规模高质量内容制作，也可以根据项目需求协同导演、摄影、后期、AI 生成与制作团队，完成不同规模的商业视觉项目。
           </p>
         </div>
         <div class="profile-list">
           <div>
-            <h3>服务方向</h3>
-            <p>产品摄影、人像拍摄、商业视频、AI 视频创作</p>
+            <h3>核心方向</h3>
+            <p>
+              核心方向是围绕高端消费品建立更具价值感和传播力的视觉表达，重点覆盖珠宝、钻石、腕表及品牌营销内容。
+            </p>
+            <p>
+              在创作方法上，强调真实摄影的质感判断与 AI 视觉生成能力结合：用摄影经验控制光影、材质、构图和品牌调性，用 AI 扩展创意测试、场景构建、关键画面生成与动态影像表达。
+            </p>
+            <p>
+              目标不是单纯展示技术效果，而是建立一套可用于商业项目的“真实摄影 + AI影像”工作流，帮助品牌更快完成视觉方案验证、内容生产和多平台传播。
+            </p>
           </div>
           <div>
-            <h3>适合客户</h3>
-            <p>腕表品牌、珠宝品牌、个人品牌、电商与社交媒体内容团队</p>
+            <h3>服务能力</h3>
+            <h4>商业视觉创意服务</h4>
+            <p>
+              根据品牌定位与市场需求，完成创意策划、视觉概念设计、内容方向制定及项目整体视觉统筹，确保传播内容兼具商业价值与品牌调性。
+            </p>
+            <h4>产品摄影与视频制作</h4>
+            <p>
+              擅长珠宝、钻石、腕表等高端产品拍摄，涵盖电商白底图、场景视觉、广告视频、品牌宣传片及社交媒体内容制作，实现从拍摄到后期的完整交付。
+            </p>
+            <h4>AI视觉内容生产</h4>
+            <p>
+              熟练运用 ChatGPT、Claude、Gemini、Midjourney、Image2、Nano Banana、Runway、可灵、即梦等工具，完成 AI 图片、AI 视频及数字内容创作，提升创意效率与项目产能。
+            </p>
+            <h4>创意导演与项目管理</h4>
+            <p>
+              具备大型商业项目统筹经验，可独立完成需求分析、创意提案、分镜脚本、拍摄执行、AI生成、后期制作及客户交付全过程管理。
+            </p>
           </div>
+        </div>
+      </section>
+
+      <section class="section workflow-section">
+        <div class="section-heading workflow-heading">
+          <div>
+            <p class="eyebrow">AI Workflow / Creative Pipeline</p>
+            <h2>AI工作流 / 创意流程</h2>
+          </div>
+        </div>
+        <div class="workflow-grid">
+          <article class="workflow-item">
+            <span class="workflow-number">01</span>
+            <h3>Strategy / 方向判断</h3>
+            <p>
+              通过 LLM 进行目标分析、品牌理解、创意发散与制作方向确认。
+            </p>
+            <p class="workflow-tools">
+              工具包括 ChatGPT、Gemini、OpenAI CodeX、Claude Code等。
+            </p>
+          </article>
+
+          <article class="workflow-item">
+            <span class="workflow-number">02</span>
+            <h3>Storyboard / 分镜与视觉设计</h3>
+            <p>
+              完成概念脚本、镜头结构、关键画面设计与视觉风格测试。
+            </p>
+            <p class="workflow-tools">
+              工具包括 GPT Image2、Nano Banana2、Midjourney 等。
+            </p>
+          </article>
+
+          <article class="workflow-item">
+            <span class="workflow-number">03</span>
+            <h3>Image Generation / 关键图生成</h3>
+            <p>
+              生成产品场景、视觉氛围、关键帧，并结合真实摄影经验优化光影、材质与构图。
+            </p>
+            <p class="workflow-tools">
+              工具包括 GPT Image2、Nano Banana2、Midjourney、TopNow、即梦AI等。
+            </p>
+          </article>
+
+          <article class="workflow-item">
+            <span class="workflow-number">04</span>
+            <h3>Video Generation / AI视频生成</h3>
+            <p>
+              基于关键帧生成动态镜头，控制镜头运动、节奏、物理连续性与产品表现。
+            </p>
+            <p class="workflow-tools">
+              工具包括 TopNow、SeeDance2、Kling3、Sora 等。
+            </p>
+          </article>
+
+          <article class="workflow-item">
+            <span class="workflow-number">05</span>
+            <h3>Audio & Post / 声音与后期整合</h3>
+            <p>
+              完成 AI 配乐、配音、剪辑、调色与最终多平台输出。
+            </p>
+            <p class="workflow-tools">
+              工具包括 Minimax、剪映、Premiere、DaVinci Resolve 等。
+            </p>
+          </article>
         </div>
       </section>
 
@@ -190,9 +391,9 @@
           <h2>联系合作</h2>
         </div>
         <div class="contact-links">
-          <a href="mailto:hello@example.com">hello@example.com</a>
-          <a href="tel:+8613800000000">+86 138 0000 0000</a>
-          <a href="#" aria-label="Instagram 链接">Instagram / Red / WeChat</a>
+          <a href="tel:+8613910789370">电话：13910789370</a>
+          <a href="mailto:124867458@qq.com">邮箱：124867458@qq.com</a>
+          <span>微信：13910789370</span>
         </div>
       </section>
     </main>
@@ -204,10 +405,25 @@
         <p class="eyebrow dialog-type"></p>
         <h2 id="dialog-title"></h2>
         <p class="dialog-desc"></p>
+        <div class="dialog-video-wrap">
+          <video class="dialog-video" controls playsinline preload="metadata"></video>
+        </div>
+        <div class="dialog-case-study" aria-label="项目案例详情"></div>
+        <div class="dialog-gallery" aria-label="作品缩略图"></div>
         <p class="dialog-note">
           这里可以替换为真实作品说明、拍摄年份、客户名称、设备参数或视频链接。
         </p>
       </div>
+    </dialog>
+
+    <dialog class="image-dialog" aria-label="大图查看">
+      <button class="image-close" type="button" aria-label="关闭大图">×</button>
+      <button class="image-nav image-prev" type="button" aria-label="上一张">‹</button>
+      <figure class="image-viewer">
+        <img class="image-full" alt="" />
+        <figcaption class="image-caption"></figcaption>
+      </figure>
+      <button class="image-nav image-next" type="button" aria-label="下一张">›</button>
     </dialog>
 
     <script src="script.js"></script>
